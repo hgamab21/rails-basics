@@ -52,6 +52,30 @@ p {
 
 /* header */
 
+#topnav{
+  color: #DD22AA;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+  transition-duration: .5s;
+}
+
+#topnav:hover{
+  color: #22DDAA;
+  text-decoration: underline;
+  position: relative;
+  top: 3px;
+  transition-duration: .5s;
+}
+
+/*.nav .navbar-right .navbar-nav{
+  color: #444;
+}
+
+#topnav:hover .navbar-right:hover .navbar-nav:hover{
+  color: #2222DD;
+}*/
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -82,10 +106,17 @@ footer {
 
 footer a {
   color: #555;
+  position: relative;
+  bottom: 0px;
+  transition-duration: .5s;
 }
 
 footer a:hover {
-  color: #222;
+  color: #22C222;
+  position: relative;
+  bottom: 3px;
+  transition-duration: .5s;
+
 }
 
 footer small {
